@@ -33,7 +33,7 @@ public class CountryServiceBase {
                 }
             }
         }
-        return null;
+        return country;
     }
 
     protected List<? extends BaseCountry> getByCodeList(String codeList, List<? extends BaseCountry> countries) {
